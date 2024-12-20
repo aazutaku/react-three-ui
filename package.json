@@ -1,0 +1,73 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/dotgothic16": "^5.1.0",
+    "@fontsource/press-start-2p": "^5.1.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@mui/icons-material": "^5.16.5",
+    "@mui/material": "^5.16.5",
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/draft-js": "^0.11.18",
+    "@types/jest": "^27.5.2",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/node": "^16.18.101",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@uiw/react-codemirror": "^4.23.0",
+    "axios": "^1.7.2",
+    "codemirror": "^5.65.16",
+    "draft-js": "^0.11.7",
+    "framer-motion": "^11.3.19",
+    "jwt-decode": "^4.0.0",
+    "monaco-editor": "^0.50.0",
+    "nes.css": "^2.3.0",
+    "phaser": "^3.86.0",
+    "pyodide": "^0.26.1",
+    "react": "^18.3.1",
+    "react-codemirror2": "^8.0.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
+    "three": "^0.166.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 全画面の高さを確保 */
+}
+
+html {
+  height: 100%; /* 全画面の高さを確保 */
+}
+
+#root {
+  min-height: 100%; /* Reactアプリ全体をカバー */
+  display: flex;
+  flex-direction: column;
+}
