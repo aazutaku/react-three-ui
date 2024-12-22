@@ -1,10 +1,10 @@
 import './App.css';
-import { ExplodingButtonPage } from './pages';
+import { Meshy3DModel } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <ExplodingButtonPage />
+      <Meshy3DModel />
     </div>
   );
 }
