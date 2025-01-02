@@ -1,7 +1,13 @@
 // 3DModelAnimation.tsx
 
 // ================================
-// PART 1: 定数定義
+// PART 1: Meshyでのモデル生成
+// ================================
+
+// Meshy AIを利用して、3Dモデルを生成する
+
+// ================================
+// PART 2: 定数定義
 // ================================
 import React, { useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
@@ -42,7 +48,7 @@ interface AnimatedFBXModelProps {
 }
 
 // ================================
-// PART 2: アニメーションモデル
+// PART 3: アニメーションモデル
 // ================================
 const AnimatedFBXModel: React.FC<AnimatedFBXModelProps> = ({ path, isPlaying = false }) => {
     const mixer = useRef<AnimationMixer | null>(null);
@@ -109,7 +115,7 @@ const AnimatedFBXModel: React.FC<AnimatedFBXModelProps> = ({ path, isPlaying = f
 };
 
 // ================================
-// PART 3: 地面の設定
+// PART 4: 地面の設定
 // ================================
 const Ground: React.FC = () => {
     return (
@@ -121,7 +127,7 @@ const Ground: React.FC = () => {
 };
 
 // ================================
-// PART 4: ランダムな石の配置
+// PART 5: ランダムな石の配置
 // ================================
 const RandomStones: React.FC = () => {
     // 初回レンダリング時にランダムな位置とスケールで石を生成
@@ -145,7 +151,7 @@ const RandomStones: React.FC = () => {
 };
 
 // ================================
-// PART 5: メインコンポーネント
+// PART 6: メインコンポーネント
 // ================================
 const ThreeDModelAnimation: React.FC = () => {
     const [isPlaying, setIsPlaying] = useState(false);
