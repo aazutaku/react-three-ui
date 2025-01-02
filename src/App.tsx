@@ -1,10 +1,10 @@
 import './App.css';
-import { Meshy3DModel } from './pages';
+import { ThreeDModelAnimation } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <Meshy3DModel />
+      <ThreeDModelAnimation />
     </div>
   );
 }
