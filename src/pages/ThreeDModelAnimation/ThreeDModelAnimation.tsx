@@ -35,7 +35,7 @@ const STONE_SCALE_MAX = 0.6; // 石の最大スケール
 
 // カメラとライトの設定
 const CAMERA_POSITION = new Vector3(0, 20, 50);
-const AMBIENT_LIGHT_INTENSITY = 0.7; // 環境光の強さ
+const AMBIENT_LIGHT_INTENSITY = 1.5; // 環境光の強さ
 const POINT_LIGHT_POSITION = new Vector3(10, 20, 10);
 const POINT_LIGHT_INTENSITY = 1; // 点光源の強さ
 

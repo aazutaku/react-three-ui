@@ -1,10 +1,10 @@
 import './App.css';
-import { ThreeDModelAnimation } from './pages';
+import { ThreeDDancingUncle } from './pages';
 
 function App() {
   return (
     <div className="App">
-      <ThreeDModelAnimation />
+      <ThreeDDancingUncle />
     </div>
   );
 }
